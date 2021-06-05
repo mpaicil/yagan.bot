@@ -48,6 +48,4 @@ func LoadConfig(){
 	if err := d.Decode(LoadedConfig); err != nil {
         fmt.Println("Requedo la cagá")
 	}
-
-	fmt.Println(LoadedConfig)
 }

@@ -23,7 +23,7 @@ func LastHourPlot(){
 
 		p := plot.New()
 
-		p.Title.Text = "Valores del Mercado"
+		p.Title.Text = "Valores del Mercado BTC/CLP"
 		plotutil.AddLinePoints(p,
 			"Compra", createSellPoints(tickers),
 			"Venta", createBuyPoints(tickers))
